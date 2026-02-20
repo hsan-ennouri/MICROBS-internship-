@@ -1,6 +1,6 @@
 # Endovascular Sensor Readout - STM32 Firmware
 ## Overview
-Redesigned the embedded data acquisition firmware for a multi-sensor endovascular guidewire designed to monitor blood flow dynamics in real-time. Ported the legacy control logic from an Arduino prototype to an STM32 microcontroller to leverage higher processing speeds, expanded memory, and advanced peripheral capabilities. Engineered the firmware to interface seamlessly with a newly designed custom PCB, optimizing the analog signal chain and eliminating previous hardware bottlenecks.
+Redesigned the embedded data acquisition firmware for a multi-sensor endovascular guidewire designed to monitor blood flow. Migrated the code from an Arduino prototype to an STM32 microcontroller to leverage higher processing speeds, expanded memory, and advanced peripheral capabilities. Engineered the firmware to interface seamlessly with a newly designed custom PCB, optimizing the analog signal chain.
 
 ## Key Features
 Architecture Optimization: Re-engineered the data acquisition topology to bypass the legacy multiplexed I2C bottleneck, ensuring reliable, synchronous sampling across 4 concurrent pressure sensor channels.
